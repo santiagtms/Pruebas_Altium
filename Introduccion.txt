@@ -1,3 +1,8 @@
+Configuracion de usuario
+git config --global user.name "your_username"
+git config --global user.email "your_email_address@example.com"
+git config --global --list
+
 Alguno comandos:
 https://dzone.com/articles/top-20-git-commands-with-examples
 
