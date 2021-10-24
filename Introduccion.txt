@@ -1,26 +1,30 @@
+Antes de empezar, mirense este video:
+https://www.youtube.com/watch?v=FsV_OWtB2EA
+_______________________________________________________________________________
 Configuracion de usuario
 git config --global user.name "your_username"
 git config --global user.email "your_email_address@example.com"
 git config --global --list
+_______________________________________________________________________________
+Pueden hacer los commits/push desde la barra de Git, o desde Altium (como se hace en el video). Si lo van a hacer desde Altium, antes tienen que generarse un token en GitHub, hagan lo que dice esta pagina, en la seccion "Creating a token".
+Copien el token que les aparece:
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token.
 
-Alguno comandos:
-https://dzone.com/articles/top-20-git-commands-with-examples
-
+Cuando vayan a hacer el commit/push desde Altium, les pide su usuario y contraseña, en la contraseña pongan el token que copiaron.
+En los proximos commits/push no vuelve a pedirles que se registren.
+_______________________________________________________________________________
 To download this project to your computer:
-
     Install GIT: https://git-scm.com/downloads
     Go into your main project directory, open commad line and run:
     git clone https://github.com/santiagtms/Pruebas_Altium
 
 Using Git in Altium
-
     Save: Once you make any changes, save the file or project
     Commit: Right click on the file or project, then Version Control -> Commit. Add a note what changes you have done. This not will be still local until you do not push the changes. See the next step.
     Push: When you would like to upload all the changes to github, right click on the file / project -> Version Control -> Push
     Check: Go to your github to see if everything was uploaded correctly
 
 Using Git from command line (Manually)
-
     Open cmd: Once you make some updates, go into your project directory, open commad line and run:
     git status #this will show you what changes you have done
     git add [path/file] #this will prepare that specific file for commit, to add all files at once, use add .
@@ -30,3 +34,6 @@ Using Git from command line (Manually)
 Download the latest changes
 Download the latest files from Github:
     git pull origin master # 
+_______________________________________________________________________________
+Alguno comandos:
+https://dzone.com/articles/top-20-git-commands-with-examples
